@@ -1,0 +1,22 @@
+# Perintah break dengan perulangan for
+#Program akan keluar setelah mencetak angka sampai 6 karena perintah break
+bil = 6
+for i in range(0,10):
+    print(i)
+    if i is bil:
+        break
+
+# perintah continue dengan perulangan while
+bil = 0
+pilihan = 'y'
+while (pilihan != 'n'):
+    bil = int(input("Masukkan bilangan dibawah 50: "))
+
+    if (bil > 50):
+        print("Bilangan melebihi angka 50, Silahkan diulangi.")
+        continue
+    print("Pangkat dua dari bilangan ini adalah: ",bil*bil)
+    pilihan = input("Apakah Anda ingin mengulang kembali (y/n)? ")
+
+
+
