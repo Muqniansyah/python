@@ -1,0 +1,7 @@
+Output dari double linked list di atas adalah 5 4 1 2 3, 
+yang merupakan nilai data dari setiap simpul dalam linked list setelah elemen-elemen ditambahkan 
+dan linked list dicetak.
+
+Dengan menggunakan konsep simpul dengan referensi ke simpul sebelumnya dan sesudahnya, 
+double linked list memungkinkan kita untuk melakukan operasi-operasi seperti 
+penambahan dan penghapusan elemen baik di awal maupun akhir linked list dengan efisien.
